@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ff69b4;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.imagens img {
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#avaliacoes {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffe4e1;
+}
+
+#form-avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.estrelas {
+    font-size: 24px;
+    color: gold;
+    cursor: pointer;
+}
+
+#lista-avaliacoes {
+    margin-top: 20px;
+}
+
+.avaliacao {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background: white;
+}
+
+#botao-whatsapp {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imagem-ajustada {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    max-height: 200px;
+    object-fit: contain; /* Garante que a imagem se ajuste sem cortes */
+    border-radius: 10px;
+}
+#avaliacoes {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffe4e1;
+    width: 50%; /* Reduz a largura para centralizar */
+    max-width: 500px; /* Define um limite máximo */
+    border-radius: 10px;
+}
+
+#form-avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 90%;
+    max-width: 400px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+

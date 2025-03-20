@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unhas da LeuGisele Pimentel - Serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gisele Pimentel</h1>
+        <p>Especialista em Sobrancelhas</p>
+    </header>
+
+    <section id="galeria">
+        <h2>Sobre mim!</h2>
+        <div class="imagens">
+            <img src="image/eu.jpeg" alt="Eu" class="imagem-ajustada">
+            <img src="image/cliente.jpeg" alt="Cliente" class="imagem-ajustada">
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li><strong>Design de Sobrancelhas:</strong> Moldagem perfeita para realçar seu rosto.</li>
+            <li><strong>Henna para Sobrancelhas:</strong> Preenchimento temporário para um efeito natural.</li>
+            <li><strong>Microblading:</strong> Técnica de fio a fio para sobrancelhas mais definidas.</li>
+            <li><strong>Lash Lifting:</strong> Curvatura e alongamento dos cílios naturais.</li>
+            <li><strong>Depilação Facial:</strong> Remoção delicada dos pelos para uma pele mais lisa.</li>
+        </ul>
+    </section>
+
+    <section id="avaliacoes">
+        <h2>Avaliações</h2>
+        <form id="form-avaliacao">
+            <label>Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label>Avaliação:</label>
+            <div class="estrelas">★★★★★<input type="hidden" id="nota" value="5"></div>
+
+            <label>Comentário:</label>
+            <textarea id="comentario" required></textarea>
+
+            <label>Foto:</label>
+            <input type="file" id="imagem" accept="image/*">
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+        <div id="lista-avaliacoes"></div>
+    </section>
+
+    <a id="botao-whatsapp" href="https://wa.me/5511999999999" target="_blank">
+        Agendar pelo WhatsApp
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

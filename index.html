@@ -5,6 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisele Pimentel - Serviços</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #E6E6FA; /* Violeta fraco */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #9370DB; /* Violeta médio */
+            color: white;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        .imagens img {
+            width: 30%;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        #servicos ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #servicos ul li::before {
+            content: "\2714"; /* Símbolo de check V */
+            color: #9370DB;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        #avaliacoes {
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffe4e1;
+            width: 50%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        #form-avaliacao {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            width: 90%;
+            max-width: 400px;
+            margin: 5px 0;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -51,8 +112,8 @@
         <div id="lista-avaliacoes"></div>
     </section>
 
-    <a id="botao-whatsapp" href="https://wa.me/557193122149" target="_blank">
-        Agende pelo WhatsApp
+    <a id="botao-whatsapp" href="https://wa.me/5511999999999" target="_blank">
+        Agendar pelo WhatsApp
     </a>
 
     <script src="script.js"></script>
